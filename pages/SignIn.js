@@ -45,7 +45,7 @@ export default function SignIn(){
               </button>
             </div>
             <p className="text-center mt-2">
-              Forgot <a href="#">password?</a>
+              <a href="#">Forgot password?</a>
             </p>
           </div>
         </form>
@@ -102,7 +102,7 @@ export default function SignIn(){
             </button>
           </div>
           <p className="text-center mt-2">
-            Forgot <a href="#">password?</a>
+            <a href="#">Forgot password?</a>
           </p>
         </div>
       </form>
