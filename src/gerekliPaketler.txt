@@ -1,0 +1,5 @@
+npm i react-router-dom
+npm i bootstrap
+npm install react-icons
+npm install react-router-dom
+npm install semantic-ui-react
