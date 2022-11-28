@@ -1,14 +1,24 @@
 import React, { useEffect } from 'react';
 import Card from './Card';
+import AllowNumbers from './../../utils/AllowNumbers';
+
 import './brand.css';
 
-const movie1 = {
-  "title": "isim soyisim",
+const profile1 = {
+  "title": "isimsoyisim",
   "year": "2012",
-  "ID": "@asdasdsa",
+  "ID": "@isimsoyisim",
   "category": "travel",
   "poster": "N/A"
 }
+
+/* const NumericOnly = (e) => {
+  const reg = /^[0-9\b]+$/
+  let preval=e.target.value
+  if (e.target.value === '' || reg.test(e.target.value)) return true
+  else e.target.value = preval.substring(0,(preval.length-1))
+} */
+
 
 const Brand = () => {
   return (
@@ -16,10 +26,10 @@ const Brand = () => {
 
       <div className="filters">  
         <form className="search-page-form" id="search-page-form" action="/search" method="GET">
-          <input type="submit" value="Search" className="search-page-form__submit" />
+          <input type="submit" value="Ara" className="search-page-form__submit" />
 
           <hr className="solid" />
-          <h3 className='category-header'>CATEGORIES</h3>
+          <h3 className='category-header'>KATEGORİLER</h3>
 
           <ul className="search-page-form__categories">
             <li>
@@ -44,44 +54,36 @@ const Brand = () => {
           </ul>
 
           <hr className="solid" />
-          <h3 className='category-header'>FOLLOWERS</h3>
-
-
-          <div class="numeric-input-holder clearfix">
-            <input type="text" class="numericInput js-manual-search-input" placeholder="min followers" name="followers_min" maxlength="11" data-section="followers" value=""/>
-          </div>
-          
+          <h3 className='category-header'>TAKİPÇİLER</h3>
         
-
-          
-
+{/*           <div class="numeric-input-holder">
+            <input 
+              type="text"
+              placeholder="min takipçi sayısı" maxLength={6}
+              onChange={NumericOnly}
+            />
+          </div>   */}
+            
+          <div>
+            <AllowNumbers/>
+          </div>
 
         </form>
       </div>
       
       <div className='container'>
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
-        <Card movie1={movie1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+        <Card profile={profile1} />
+
       </div>
 
     </div>  

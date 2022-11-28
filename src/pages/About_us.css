@@ -1,0 +1,41 @@
+.About_us-title{
+    position: absolute;
+width: 468px;
+height: 54px;
+left: 469px;
+top: 160px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
+background: linear-gradient(90deg, #773FC2 -5.04%, #F24720 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+.About_us-paragraf{
+    position: absolute;
+width: 1020px;
+height: 428px;
+left: 206px;
+top: 275px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
