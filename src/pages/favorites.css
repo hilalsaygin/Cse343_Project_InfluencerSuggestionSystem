@@ -1,9 +1,0 @@
-.favorites {
-  width: fit-content;
-  height: 100vh;
-  scroll-behavior: smooth;
-  background-color: rgb(10, 22, 42);
-  display: table;
-  min-height: 100%;
-  bottom: 0;
-}
