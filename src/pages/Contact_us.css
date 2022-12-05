@@ -1,0 +1,122 @@
+*{
+    background-color: #0A162A;
+}
+
+.Contact_us-title{
+    position: absolute;
+width: 468px;
+height: 54px;
+left: 500px;
+top: 150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
+background: linear-gradient(90deg, #773FC2 -5.04%, #F24720 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+
+.nameSurname-Contact_us{
+    position: absolute;
+width: 280px;
+height: 35px;
+left: 417px;
+top: 300px;
+
+background: #F6F6F6;
+border-radius: 10px;
+}
+
+.nameSurnamelabel-Contact_us{
+    position: absolute;
+width: 139px;
+height: 45px;
+left: 417px;
+top: 250px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+
+.email-Contact_us{
+    position: absolute;
+width: 280px;
+height: 35px;
+left: 785px;
+top: 300px;
+
+background: #F6F6F6;
+border-radius: 10px;
+}
+
+.emaillabel-Contact_us{
+    position: absolute;
+width: 189px;
+height: 32px;
+left: 785px;
+top: 250px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.Contact_us-text{
+    position: absolute;
+width: 650px;
+height: 197px;
+left: 415px;
+top: 450px;
+
+background: #F6F6F6;
+border-radius: 10px;
+}
+
+.Contact_us-textlabel{
+    position: absolute;
+    width: 700px;
+    height: 54px;
+    left: 370px;
+    top: 395px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.submit-Contact_us{
+    position: absolute;
+    width: 160px;
+    height: 35px;
+    left: 648px;
+    top: 675px;
+
+    background: #FF4820;
+    border-radius: 10px;
+}

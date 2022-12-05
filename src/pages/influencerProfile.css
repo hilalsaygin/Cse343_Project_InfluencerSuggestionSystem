@@ -1,0 +1,13 @@
+.infProf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 194px;
+    gap: 24px;
+    position: relative;
+    background: #0A162A;
+}
+
+
+
+
