@@ -53,46 +53,52 @@ export default function SignIn(){
     </div>*/}
     <div className="Auth-form-container">
       
-      <h3 className="Auth-form-title2-signin">Giriş Yap</h3>
       
-      <div className="email-signin">
-      {/*<label>Email address</label>*/}
-                <input
-                  type="email"
-                  className="form-control mt-1"
-                  placeholder="Enter email"
-                />
-      </div>
-      <p className="emaillabel-signin">
-        Email Adresi
-      </p>
-      <div className="password-signin">
-      {/*<label>Password</label>*/}
-              <input
-                type="password"
-                className="form-control mt-1"
-                placeholder="Enter password"
-              />
-      </div>
-      <p className="passwordlabel-signin">
-        Şifre
-      </p>
-      <div className="submit-signin1">
-              <button type="submit" className="submit-signin">
-                Giriş Yap
-              </button>
-      </div>
-      <div className="forgot-password-signin">
-      <p className="text-center mt-2">
-              <a href="#">Şifreni mi unuttun?</a>
-            </p>
-      </div>
-      <div className="notregistered-signin">
-              
-              <span className="link-primary" onClick={changeAuthMode}>
-              Bir hesabın yok mu?
-              </span>
-      </div>
+        <div className="content">
+          <h3 className="title">Giriş Yap</h3>
+          
+          <div className="form-group mt-3">
+            <label>Email adresi</label>
+                    <input
+                      type="email"
+                      className="form-control mt-1"
+                      placeholder="Email adresinizi girin"
+                    />
+          </div>
+          {/*<p className="emaillabel-signin">
+            Email Adresi
+          </p>*/}
+          <div className="form-group mt-3">
+            <label>Şifre</label>
+                  <input
+                    type="password"
+                    className="form-control mt-1"
+                    placeholder="Şifrenizi Girin"
+                  />
+          </div>
+          {/*<p className="passwordlabel-signin">
+            Şifre
+          </p>*/}
+          <div className="d-grid gap-2 mt-3">
+                  <button type="submit" className="button">
+                    Giriş Yap
+                  </button>
+          </div>
+          <div className="forgot-password-signin">
+          <p className="text-center mt-2">
+                  <a href="#">Şifreni mi unuttun?</a>
+                </p>
+          </div>
+          <div className="notregistered-signin">
+                  
+                  <p className="text-center mt-2" onClick={changeAuthMode}>
+                  Bir hesabın yok mu?
+                  </p>
+          </div>
+        </div>
+      
+      
+      
     </div>
     
         
@@ -151,50 +157,55 @@ export default function SignIn(){
         </div>
       </form>
   </div>*/}
+  
   <div className="Auth-form-container">
 
-  <h3 className="Auth-form-title2_signup">Kayıt ol</h3>
+  <div className="content">
+      <h3 className="title">Kayıt ol</h3>
 
-    <div className="nameSurname-signup">
-        {/*<label>Email address</label>*/}
+    <div className="form-group mt-3">
+        <label>Adı Soyad</label>
                   <input
                     type="text"
                     className="form-control mt-1"
-                    placeholder="Adınızı Girin"
+                    placeholder="Adınızı ve soyadınızı girin"
                   />
     </div>
-    <p className="nameSurnamelabel-signup">
+    {/*<p className="nameSurnamelabel-signup">
         Adınız
-    </p>
+      </p>*/}
 
-    <div className="email-signup">
-      {/*<label>Email address</label>*/}
+    <div className="form-group mt-3">
+      <label>Email adresi</label>
                 <input
                   type="email"
                   className="form-control mt-1"
-                  placeholder="Enter email"
+                  placeholder="Email adresinizi girin"
                 />
       </div>
-      <p className="emaillabel-signup">
+      {/*<p className="emaillabel-signup">
         Email Adresi
-      </p>
-      <div className="password-signup">
-      {/*<label>Password</label>*/}
+        </p>*/}
+      <div className="form-group mt-3">
+      <label>Şifre</label>
               <input
                 type="password"
                 className="form-control mt-1"
-                placeholder="Enter password"
+                placeholder="Şifrenizi girin"
               />
       </div>
-      <p className="passwordlabel-signup">
+      {/*<p className="passwordlabel-signup">
         Şifre
-      </p>
+      </p>*/}
 
-      <div className="submit-signup1">
-              <button type="submit" className="submit-signup">
+      <div className="d-grid gap-2 mt-3">
+              <button type="submit" className="button">
                 Kayıt ol
               </button>
       </div>
+  </div>
+
+  
 
 
   </div>

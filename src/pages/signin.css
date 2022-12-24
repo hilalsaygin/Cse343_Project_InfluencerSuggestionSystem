@@ -32,133 +32,69 @@
     font-weight: 800;
   }*/}
   
-.Auth-form-title2-signin{
-  position: absolute;
+  .form1 {
+    
+    align-items: center;
+    display: flex;
+    width: 600px;
+    box-shadow: rgb(0 0 0 / 20%) 1px 1px 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+   
+    margin-top: -25rem;
+  }
+  
+  .content {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    color: white;
+    width: px;
+    margin-top: -18%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .title{
   width: 283px;
   height: 54px;
-  left: 604px;
-  top: 146px;
-  
-  font-family: 'Montserrat';
+
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 44px;
   line-height: 54px;
   /* identical to box height */
-  
+
   text-align: center;
-  
-  background: linear-gradient(90deg, #773FC2 -5.04%, #F24720 100%);
+  margin-top: -25%;
+
+  background: linear-gradient(90deg, #773fc2 -5.04%, #f24720 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  }
+
+  .button{
+    
+    background-color: #F24720;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+  }
+
+  .notregistered-signin{
+    color:blue;
+    background: transparent;
+
+  }
+
   
+
   
 
-
-}
-
-.email-signin{
-position: absolute;
-width: 280px;
-height: 35px;
-left: 451px;
-top: 264px;
-
-background: #F6F6F6;
-border-radius: 10px;
-}
-
-.emaillabel-signin{
-  position: absolute;
-width: 189px;
-height: 32px;
-left: 451px;
-top: 227px;
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 23px;
-line-height: 31px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-}
-
-.password-signin{
-position: absolute;
-width: 280px;
-height: 35px;
-left: 761px;
-top: 264px;
-
-background: #F6F6F6;
-border-radius: 10px;
-}
-
-.passwordlabel-signin{
-  position: absolute;
-width: 244px;
-height: 17px;
-left: 761px;
-top: 227px;
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 23px;
-line-height: 31px;
-
-color: #FFFFFF;
-
-}
-
-.submit-signin{
-  position: absolute;
-width: 160px;
-height: 35px;
-left: 660px;
-top: 325px;
-background: #FF4820;
-
-border-radius: 10px;
-}
-
-.forgot-password-signin{
-  position: absolute;
-width: 204px;
-height: 27px;
-left: 850px;
-top: 322px;
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-
-color: #0982FC;
-
-}
-
-.notregistered-signin{
-  position: absolute;
-width: 667px;
-height: 27px;
-left: 411px;
-top: 374px;
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-
-color: #0982FC;
-
-}
+  
 
 
