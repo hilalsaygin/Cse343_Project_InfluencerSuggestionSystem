@@ -1,0 +1,100 @@
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("../assets/background3.png");
+  background-size: 100%;
+}
+
+/* .Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: -23rem;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+} */
+
+.form1 {
+  
+  align-items: center;
+  display: flex;
+  width: 600px;
+  box-shadow: rgb(0 0 0 / 20%) 1px 1px 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 8px;
+ 
+  margin-top: -25rem;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  color: white;
+  width: px;
+  margin-top: -18%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.title{
+width: 283px;
+height: 54px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+margin-top: -25%;
+
+background: linear-gradient(90deg, #773fc2 -5.04%, #f24720 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.button{
+  
+  background-color: #F24720;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.notregistered-signin{
+  color:blue;
+  background: transparent;
+
+}
+
+
+
+
+
+
+
+
