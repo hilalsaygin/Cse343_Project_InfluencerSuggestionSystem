@@ -1,4 +1,0 @@
-NODE_ENV=development
-PORT = 3001
-DATABASE =  mongodb+srv://elif:rastgele@influencers.hm6lkte.mongodb.net/?retryWrites=true&w=majority
-DATA_PASSWORD =rastgele
