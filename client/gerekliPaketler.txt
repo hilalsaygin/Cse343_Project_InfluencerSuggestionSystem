@@ -1,0 +1,9 @@
+npm i react-router-dom
+npm i bootstrap
+npm install react-icons
+npm install react-router-dom
+npm install semantic-ui-react
+npm install @mui/material 
+npm install @mui/icons-material
+npm install @emotion/styled
+npm install @mui/joy
