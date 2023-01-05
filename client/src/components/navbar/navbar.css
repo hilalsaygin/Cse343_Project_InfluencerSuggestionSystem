@@ -1,0 +1,150 @@
+.navbar {
+    padding: 2rem 6rem;
+    display: flex;
+    width: 100%;
+    background-color: rgb(10, 22, 42);
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+}
+
+.navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.navbar-links_logo img {
+    width: 75px;
+    height: 70px;
+}
+
+.navbar-links_container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-sign {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 0.5rem;
+}
+
+.navbar-links a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-links p,
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.navbar-sign button,
+.navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-links_container p:hover,
+.navbar-sign p:hover,
+.navbar-sign button:hover,
+.navbar-menu_container p:hover,
+.navbar-menu_container button:hover,
+.navbar-links a:hover {
+    text-decoration:underline;
+    color: white;
+}
+
+.navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.navbar-menu svg {
+    cursor: pointer;
+}
+
+.navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+}
+
+.navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.navbar-menu_container_links_sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar-links_container {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        padding: 2rem 4rem;    
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding: 2rem;    
+    }
+
+    .navbar-sign {
+        display: none;
+    }
+
+    .navbar-menu_container {
+        top: 20px;
+    }
+
+    .navbar-menu_container_links_sign {
+        display: block;
+    }
+}
